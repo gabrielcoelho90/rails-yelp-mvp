@@ -8,6 +8,10 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
+
+# It's good to add some puts in order to follow what is happening
+
+
 broz = Restaurant.create(name: 'Broz Pizzaria', address: 'Rua Monte Santo',
                          phone_number: '21 98764 6746',
                          category: 'italian')
